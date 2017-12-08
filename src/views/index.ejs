@@ -6,24 +6,23 @@
 		<title>Storystrap Template</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- bower: css -->
-    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel = "stylesheet">
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel = "stylesheet">
-    <!-- endbower -->
-    <!-- bower:js -->
-    <script src="/lib/jquery/dist/jquery.js"></script>
-    <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
-    <!-- endbower -->
-    <!-- inject:css -->
-    <link rel="stylesheet" href="/css/styles.css">
-    <!-- endinject -->
-    <!-- inject:js-->
-    <script src="/js/app.js"></script>
-    <!-- endinject -->
+        <!--bower:css-->
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" />
+        <!--endbower-->
+        <!-- bower:js -->
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbower -->
+        <!-- inject:css-->
+        <link rel="stylesheet" href="/css/styles.css">
+        <!-- endinject-->
+        <!--inject:js-->
+        <script src="/js/app.js"></script>
+        <!--endinject-->
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
 	</head>
 	<body>
 <header class="navbar navbar-bright navbar-fixed-top" role="banner">
@@ -39,9 +38,9 @@
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <% for(var i=0; i<list.length;i++){%>
-           <li><a><%=list[i]%></a></li>
-        <%}%>
+          <% for(var i=0; i<nav.length;i++){%>
+              <li><a href="<%=nav[i].Link%>"><%=nav[i].Text%></a></li>
+          <%}%>
       </ul>
       <ul class="nav navbar-right navbar-nav">
         <li class="dropdown">
