@@ -12,3 +12,10 @@
 * inject css and javascript references into html automatically, which implemented by wiredep and gulp-inject
 * use nodemon to auto restarting application
 * finished up building the framework of this project
+
+3.
+* use template engine, which is basically bridge between express application and the html 
+* need some dynamic pages instead of only static pages, therefore templating engine can help bridge code with html
+* Jade is heavyweight, good for keeping templates clean and sharp
+* handlebars has lot of built-in features 
+* ejs conflict with angular, use ejs to build module from the bootstrap template downloaded
