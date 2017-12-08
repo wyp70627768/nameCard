@@ -1,0 +1,17 @@
+{
+  "name": "namecard",
+  "description": "a application built by node.js and express",
+  "main": "index.js",
+  "authors": [
+    "Yingpeng Wang (yp.wangt@gmail.com)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/wyp70627768/nameCard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
