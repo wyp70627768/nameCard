@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wyp70627768/nameCard/issues"
   },
-  "homepage": "https://github.com/wyp70627768/nameCard#readme"
+  "homepage": "https://github.com/wyp70627768/nameCard#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
