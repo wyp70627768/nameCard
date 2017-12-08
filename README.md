@@ -24,3 +24,9 @@
 * Build routes for application
 * use req.params, pass parameters in the url to help the application know where want to go
 * render different views based upon the route 
+
+5.
+* Getting data from sql server
+* use mongodb driver
+* insert data into database using insertMany command line to get data into database
+* Find and find one, to find data
