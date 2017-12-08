@@ -24,7 +24,8 @@
     "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
     "jade": "^1.11.0",
-    "minimatch": "^3.0.2"
+    "minimatch": "^3.0.2",
+    "mssql": "^4.1.0"
   },
   "devDependencies": {
     "gulp-inject": "^4.3.0",
