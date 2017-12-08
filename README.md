@@ -19,3 +19,8 @@
 * Jade is heavyweight, good for keeping templates clean and sharp
 * handlebars has lot of built-in features 
 * ejs conflict with angular, use ejs to build module from the bootstrap template downloaded
+
+4.
+* Build routes for application
+* use req.params, pass parameters in the url to help the application know where want to go
+* render different views based upon the route 
