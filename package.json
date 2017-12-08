@@ -25,6 +25,7 @@
     "gulp": "^3.9.1",
     "jade": "^1.11.0",
     "minimatch": "^3.0.2",
+    "mongodb": "^3.0.0-rc0",
     "mssql": "^4.1.0"
   },
   "devDependencies": {
