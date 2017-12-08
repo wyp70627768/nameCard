@@ -24,6 +24,7 @@
     "minimatch": "^3.0.2"
   },
   "devDependencies": {
+    "gulp-inject": "^4.3.0",
     "gulp-jscs": "^4.0.0",
     "gulp-jshint": "^2.0.4",
     "jshint": "^2.9.5",
