@@ -3,7 +3,8 @@ var app = express();
 var port = 3000 || process.env.PORT;
 
 app.use(express.static('public'));
-app.use(express.static('src/views'));
+app.set('views', './src/views');
+app.set('view engine', 'jade');
 
 app.get('/', function(req, res) {
 
