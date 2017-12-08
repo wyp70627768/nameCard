@@ -21,6 +21,11 @@
     "express": "^4.16.2",
     "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
     "minimatch": "^3.0.2"
+  },
+  "devDependencies": {
+    "gulp-jscs": "^4.0.0",
+    "jshint-stylish": "^2.2.1"
   }
 }
