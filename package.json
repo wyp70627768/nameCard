@@ -19,6 +19,7 @@
   "homepage": "https://github.com/wyp70627768/nameCard#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
     "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
     "jade": "^1.11.0",
