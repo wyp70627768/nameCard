@@ -1,4 +1,5 @@
 # nameCard
+1.
 * have an HTML file serve up some CSS and some JavaScript
 * Get some routes in the entry doc
 * Use static directories that supported by middleware
