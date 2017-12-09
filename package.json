@@ -26,12 +26,14 @@
     "express-session": "^1.15.6",
     "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
+    "http": "0.0.0",
     "jade": "^1.11.0",
     "minimatch": "^3.0.2",
     "mongodb": "^3.0.0-rc0",
     "mssql": "^4.1.0",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "gulp-inject": "^4.3.0",
