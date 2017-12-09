@@ -18,15 +18,20 @@
   },
   "homepage": "https://github.com/wyp70627768/nameCard#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
     "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
     "jade": "^1.11.0",
     "minimatch": "^3.0.2",
     "mongodb": "^3.0.0-rc0",
-    "mssql": "^4.1.0"
+    "mssql": "^4.1.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "gulp-inject": "^4.3.0",
