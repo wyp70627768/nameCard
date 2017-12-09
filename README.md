@@ -35,3 +35,8 @@
 * create user in the database, authenticate the user
 * secure routes using passport
 * Oauth with passport
+
+7. 
+* Controllers deal with all of the work associated with a route
+* services get all the work of getting data that the controllers were going to use
+* call goodreads api using http package convert the xml from xml2js
